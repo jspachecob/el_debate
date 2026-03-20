@@ -3,24 +3,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 html {
      scroll-behavior: smooth;
 }
-
 body {
     background-color: #313B9A;
 }
-
 main {
 
     margin: 0 auto;
     max-width: 768px;
     padding: 10px;
     padding-top: 0px;
-
 }
 
 header {
@@ -28,7 +24,6 @@ header {
     top: 0;
     z-index: 1000;
     padding-top: 10px;
-
 }
 
 header div {
@@ -44,9 +39,7 @@ header div {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    
 }
-
 header div summary {
     font-size: 24px;
     color: #000000;
@@ -79,11 +72,8 @@ header div a:hover {
 
 section{
         scroll-margin-top: 30vh;
-           
-
-
+        
 }
-
 
 /* QUE ES EL DEBATE */
 .que_es_el_debate {
@@ -95,8 +85,6 @@ section{
     background-color: #FDA4E4;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(34, 34, 34);
-
-
 }
 
 .que_es_el_debate h2 {
