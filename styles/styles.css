@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    background-color: #313B9A;
+}
+
+main {
+
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 10px;
+    padding-top: 0px;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-top: 10px;
+
+}
+
+header div {
+
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #000000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+
+
+}
+
+/* QUE ES EL DEBATE */
+.que_es_el_debate {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FDA4E4;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+
+
+}
+
+.que_es_el_debate h2 {
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.que_es_el_debate div {
+    background-color: #FFE5F6;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.que_es_el_debate div p {
+    color: #1A1A1A;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+/* PARA QUE SIRVE EL DEBATE */
+.para_que_sirve {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #66E4B4;
+    border-radius: 10px;
+    padding: 0 10px 5px 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+
+
+}
+
+.para_que_sirve h2 {
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.para_que_sirve div {
+    background-color: #B2F2BB;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border: dashed 1px grey;
+
+}
+
+.para_que_sirve summary {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.para_que_sirve div p {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* participantes del debate  */
+.participantes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9F871;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+
+}
+
+.participantes h2 {
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.participantes div {
+    background-color: #FDFD96;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border: dashed 1px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.participantes div img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.participantes h3 {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.participantes div p {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* estructura  */
+
+.estructura {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FD9E5A;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+
+}
+
+.estructura h2 {
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.estructura div {
+    background-color: #FFE0C8;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border: dashed 1px grey;
+
+}
+
+.estructura div p {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* REGLAS DEL DEBATE */
+.reglas {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #C0A3FF;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+
+}
+
+.reglas h2 {
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.reglas div {
+    background-color: #EAE1FD;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border: dashed 1px grey;
+}
+
+.reglas div p {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tipos de debate */
+.tipos {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EE8896;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+}
+
+.tipos h2 {
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.tipos div {
+    background-color: #FFE6F9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border: dashed 1px grey;
+}
+
+.tipos div p {
+    color: #000000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+footeR div p {
+    color: #ffffff;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ejemplo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    color: wheat;
+    
+ 
+}
+.ejemplo h2 {
+    
+    padding: 10px;
+    font-size: 25px;
+}
+
+.ejemplo p {
+    color: wheat;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+   
+
+}
+
+.ejemplo iframe {
+    width: 90%;
+    aspect-ratio: 16/9;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(34, 34, 34);
+}
