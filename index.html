@@ -14,14 +14,25 @@
 
         <header>
             <div>
-                <h1>El debate</h1>
+                <details>
+                    <summary>EL DEBATE</summary>
+                <ul>
+                   <li><a href="#que_es_el_debate">¿Qué es?</a></li>
+                    <li><a href="#para_que_sirve">¿Para qué sirve?</a></li>
+                    <li><a href="#participantes">Participantes</a></li>
+                    <li><a href="#estructura">Estructura</a></li>
+                    <li><a href="#reglas">Reglas</a></li>
+                    <li><a href="#tipos">Tipos</a></li>
+                    <li><a href="#ejemplo">Ejemplo</a></li>
+                </ul>
+               </details>
             </div>
 
         </header>
 
 
 
-        <section class="que_es_el_debate">
+        <section class="que_es_el_debate" id="que_es_el_debate">
             <h2>¿Qué es el debate?</h2>
             <div>
                 <p>El debate ayuda a analizar la información antes de aceptarla.
@@ -30,7 +41,7 @@
             </div>
         </section>
 
-        <section class="para_que_sirve">
+        <section class="para_que_sirve" id="para_que_sirve">
             <h2>¿Para qué sirve?</h2>
             <div>
                 <details>
@@ -65,7 +76,7 @@
             </div>
         </section>
 
-        <section class="participantes">
+        <section class="participantes" id="participantes">
             <h2>Participantes en un debate</h2>
             <div>
                 <img src="img/moderador.png" alt="Moderador">
@@ -88,7 +99,7 @@
 
         </section>
 
-        <section class="estructura">
+        <section class="estructura" id="estructura">
             <h2>Estructura del debate</h2>
             <div>
                 <h3>1. Introducción</h3>
@@ -117,7 +128,7 @@
 
         </section>
 
-        <section class="reglas">
+        <section class="reglas" id="reglas">
             <h2>Reglas del debate</h2>
             <div>
                 <p>1. Respetar a los demás participantes</p>
@@ -133,7 +144,7 @@
             </div>
         </section>
 
-        <section class="tipos">
+        <section class="tipos" id="tipos">
             <h2>Tipos de debate</h2>
             <div>
                 <p>Debate informativo</p>
@@ -146,7 +157,7 @@
             </div>
         </section>
         
-        <section class="ejemplo">
+        <section class="ejemplo"    id="ejemplo"> 
             <h2>Ejemplo de debate</h2>
             <p>A continuación, se muestra un ejemplo de un debate sobre el tema "Deberes que mandan en las escuelas"</p>
                     <iframe  src="https://www.youtube.com/embed/4RnjKN-3S7g?si=2yRDnIkJcFhI_nTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -163,7 +174,18 @@
         </footer>
 
     </main>
-
+<script>
+    document.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", function(e) {
+            const details = this.closest("details");
+            
+            // Espera un poco para que el enlace funcione
+            setTimeout(() => {
+                details.removeAttribute("open");
+            }, 100);
+        });
+    });
+</script>
 </body>
 
 </html>
